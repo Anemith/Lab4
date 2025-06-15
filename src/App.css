@@ -1,0 +1,47 @@
+body {
+  background-color: #1e2a3c;
+}
+
+.button_container {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  font-size: 22px;
+  height: 70px;
+  width: 180px;
+  margin: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.id-button {
+  background-color: #00bcd4;
+  color: white;
+}
+
+.id-button:hover {
+  background-color: #008ba3;
+}
+
+.name-button {
+  background-color: #ff5722;
+  color: white;
+}
+
+.name-button:hover {
+  background-color: #d84315;
+}
+
+.id-text {
+  color: #b0bec5;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.name-text {
+  color: #ffccbc;
+  font-size: 18px;
+  font-weight: bold;
+}
